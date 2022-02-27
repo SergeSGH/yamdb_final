@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('text', models.TextField(verbose_name='Текст отзыва')),
-                ('score', models.PositiveSmallIntegerField(validators=[reviews.validators.ValidateScore], verbose_name='Рейтинг')),
+                ('score', models.PositiveSmallIntegerField(validators=[reviews.validators.validatescore], verbose_name='Рейтинг')),
                 ('pub_date', models.DateTimeField(auto_now_add=True, help_text='Дата ревью', verbose_name='Дата ревью')),
             ],
             options={
