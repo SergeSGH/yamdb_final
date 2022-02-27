@@ -1,10 +1,10 @@
 from django.contrib.auth import get_user_model
-from rest_framework.permissions import BasePermission, SAFE_METHODS
+from rest_framework.permissions import SAFE_METHODS, BasePermission
 
 User = get_user_model()
 
 
-def isAuthenticated(function):
+def isauthenticated(function):
     def wrapper(self, request=None, object=None):
         if not request.user.is_authenticated:
             return False
@@ -29,7 +29,7 @@ class IsAuthor(BasePermission):
 
 class IsAdminOrSuper(BasePermission):
 
-    @isAuthenticated
+    @isauthenticated
     def check_permission(self, request, object):
         return (
             request.user.is_admin
@@ -44,7 +44,7 @@ class IsAdminOrSuper(BasePermission):
 
 class IsModerator(BasePermission):
 
-    @isAuthenticated
+    @isauthenticated
     def check_permission(self, request, object):
         return request.user.is_moderator
 
