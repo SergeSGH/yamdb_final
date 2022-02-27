@@ -13,8 +13,9 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
-    restart: always
+    # build: ../api_yamdb
+    image: ssprihodko/yamdb_final
+    # restart: always
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
