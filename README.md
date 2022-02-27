@@ -1,4 +1,4 @@
-![example workflow](https://github.com/SergeSGH/yamdb_final/actions/workflows/CI/badge.svg)
+![example workflow](https://github.com/SergeSGH/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
 # yamdb_final
 ### Описание:
 проект по предоставлению информации о медиаконтенте, в том числе с ревью и отзывами.
@@ -15,16 +15,6 @@ git clone https://github.com/SergeSGH/yamdb_final.git
 ```
 ```
 cd yamdb_final/infra
-```
-
-В папке проекта создать файл .env в котором определить ключевые переменные:
-```
-DB_ENGINE: вид БД
-DB_NAME: имя БД
-POSTGRES_USER: логин пользователя БД
-POSTGRES_PASSWORD: пароль пользователя БД
-DB_HOST: приложение БД 
-DB_PORT: порт БД
 ```
 
 Собрать и запустить контейнеры:
