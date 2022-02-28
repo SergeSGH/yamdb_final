@@ -1,4 +1,4 @@
-[![yamdb forkflow status](https://github.com/SergeSGH/yamdb_final/workflows/yamdb_workflow/badge.svg)]
+![yamdb forkflow status](https://github.com/SergeSGH/yamdb_final/workflows/yamdb_workflow/badge.svg)
 # yamdb_final
 ### Описание:
 проект по предоставлению информации о медиаконтенте, в том числе с ревью и отзывами.
