@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/SergeSGH/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/SergeSGH/yamdb_final/actions/yamdb_workflow.yaml)
+[![Build Status](https://github.com/SergeSGH/yamdb_final/workflows/yamdb%20workflow/badge.svg)](https://github.com/SergeSGH/yamdb_final/actions/yamdb_workflow.yaml)
 # yamdb_final
 ### Описание:
 проект по предоставлению информации о медиаконтенте, в том числе с ревью и отзывами.
