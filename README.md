@@ -16,7 +16,7 @@ git clone https://github.com/SergeSGH/yamdb_final.git
 ```
 cd yamdb_final/infra
 ```
-В папке проекта создать файл .env в котором определить ключевые переменные:
+В папке проекта создать файл .env в котором определить ключевые переменные: 
 ```
 DB_ENGINE: вид БД
 DB_NAME: имя БД
