@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'users',
     'yamdb',
     'reviews',
+    'django.contrib.staticfiles',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
