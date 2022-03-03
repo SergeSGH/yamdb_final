@@ -5,7 +5,7 @@
 Аналог imdb, metacritic, kinopoisk и др.
 
 ### Посмотреть документацию для API интерфейса проекта можно здесь:
-http://gbu-1541.hopto.org/redoc/
+http://gbu-1541.hopto.org/api/redoc/
 
 ### Войти в админ зону и отредактировать данные можно здесь:
 http://gbu-1541.hopto.org/admin/
