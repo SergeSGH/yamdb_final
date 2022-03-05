@@ -28,7 +28,7 @@ services:
       - static_value:/app/static/
       - media_value:/app/media/
 
-    location /static/ {
+    location: /static/ {
         autoindex on;
         alias /app/static/;
     }
