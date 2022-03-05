@@ -28,11 +28,6 @@ services:
       - static_value:/app/static/
       - media_value:/app/media/
 
-    location: /static/ {
-        autoindex on;
-        alias /app/static/;
-    }
-
     depends_on:
       - web
 
